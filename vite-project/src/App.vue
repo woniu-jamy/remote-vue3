@@ -1,13 +1,10 @@
 <!-- App.vue就是主页 -->
 <template>
-  <div>
-    <HelloWorld></HelloWorld>
-  </div>
-  <div class="outer1">我是App组件的内容</div>
+  <router-view></router-view>
 </template>
 
 <script setup>
-  import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <style scoped>
